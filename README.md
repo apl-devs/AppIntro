@@ -28,7 +28,7 @@ Update your `build.gradle` file:
 
 // REPLACE WITH:
 implementation 'com.github.AppIntro:AppIntro:x.y.z'
-
+```
 ---
 
 *This proof of concept was conducted by LABS @ ITRES for educational and responsible disclosure purposes.*
