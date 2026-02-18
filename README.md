@@ -1,18 +1,22 @@
-# 🛡️ Security Research Artifact
+# ⚠️ Security Notice
 
-> **NOTICE:** This repository has been established as part of a cybersecurity research initiative by **[LABS @ ITRES](https://labs.itresit.es)**.
+This repository and its associated namespace have been claimed as part of a security research project demonstrating **Supply Chain** impact using reborn namespaces in JitPack coordinates.
 
-## ⚠️ Important Information
+**This is a benign placeholder. No malicious code is being distributed or published from this repository.**
 
-* **No Malicious Content:** This repository **does not contain** any malicious code, payloads, or binaries. It is safe to view.
-* **Research Purpose:** This is a placeholder created solely for security analysis and ecosystem measurement.
-* **Apology:** We sincerely apologize for any confusion or inconvenience this placeholder may cause to developers or maintainers.
+## 📖 The Research
 
----
+To understand how this namespace was taken over, the implications for the software supply chain, and how to mitigate this type of vulnerability, please read our full disclosure:
 
-## 🔧 Remediation (Action Required)
+🔗 **[Supply Chain Necromancy: Reborn namespaces in JitPack coordinates](https://labs.itresit.es/2026/02/18/supply-chain-necromancy-reborn-namespaces-in-jitpack-coordinates/)**
 
-If your build is resolving to this repository, you are using an **outdated or relocated dependency**. Please update your build configuration immediately to the official source.
+## 🛠️ Action Required
+
+If you are looking for the **AppIntro** library, the original project was moved. You must update your build scripts and dependencies to point to the official, actively maintained repository:
+
+👉 **[https://github.com/AppIntro/AppIntro](https://github.com/AppIntro/AppIntro)**
+
+Continuing to use the old coordinates (`apl-devs/AppIntro`) exposes your software supply chain to hijacking risks.
 
 ### Recommended Fix
 
@@ -24,3 +28,7 @@ Update your `build.gradle` file:
 
 // REPLACE WITH:
 implementation 'com.github.AppIntro:AppIntro:x.y.z'
+
+---
+
+*This proof of concept was conducted by LABS @ ITRES for educational and responsible disclosure purposes.*
